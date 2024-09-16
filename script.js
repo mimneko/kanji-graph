@@ -81,6 +81,25 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // エッジを動的に生成する関数
+    var generateEdges = function(nodes) {
+        var edges = [];
+        nodes.forEach(function(node) {
+            if (node.components) {
+                node.components.forEach(function(targetId) {
+                    edges.push({
+                        data: {
+                            id: node.id + '-' + targetId,
+                            source: targetId,
+                            target: node.id
+                        }
+                    });
+                });
+            }
+        });
+        return edges;
+    };
+
     // JSONデータを取得してCytoscapeを初期化する関数
     function initializeCytoscape() {
         fetchNodes().then(nodes => {
