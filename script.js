@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // JSONファイルからノードデータを取得する関数
     function fetchNodes() {
-        return fetch('path/to/your/nodes.json') // JSONファイルのパスを指定
+        return fetch('kanji-list.json') // JSONファイルのパスを指定
             .then(response => response.json())
             .catch(error => console.error('Error fetching nodes:', error));
     }
