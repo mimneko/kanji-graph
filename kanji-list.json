@@ -1,0 +1,17 @@
+[
+    { "id": "k1", "label": "一", "type": "指事" },
+    { "id": "k6864", "label": "皿", "type": "象形" },
+    { "id": "k10084", "label": "血", "type": "象形" },
+    { "id": "k4099", "label": "日", "type": "象形" },
+    { "id": "k4319", "label": "月", "type": "象形" },
+    { "id": "k1127", "label": "口", "type": "象形" },
+    { "id": "k13125", "label": "鳥", "type": "象形" },
+    { "id": "b1", "label": "艸", "type": "パーツ", "alternative": "b2" },
+    { "id": "b2", "label": "草冠", "type": "パーツ" },
+    { "id": "k6893", "label": "盟", "type": "会意形声", "components": ["k4133", "k10084"] },
+    { "id": "k4133", "label": "明", "type": "会意", "components": ["k4099", "k4319"] },
+    { "id": "k9203", "label": "艸の萌", "type": "形声", "components": ["b1", "k4133"], "alternative": "k9204" },
+    { "id": "k9204", "label": "萌", "type": "形声", "components": ["b2", "k4133"] },
+    { "id": "k9457", "label": "蔦", "type": "形声", "components": ["b2", "k13125"] },
+    { "id": "k13134", "label": "鳴", "type": "会意", "components": ["k1127", "k13125"] }
+]
