@@ -73,6 +73,7 @@
 
         <details>
             <summary>対応字体リスト</summary>
+            <ul id="statistics"></ul>
             <table id="kanjiTable">
                 <thead>
                     <tr>
@@ -85,7 +86,8 @@
                 </tbody>
             </table>
         </details>
-        
+
+        <!--
         <script>
             // JSONファイルのパス
             fetch('https://mimneko.github.io/kanji-tree/kanji-list.json')
@@ -100,6 +102,47 @@
                         `;
                         tableBody.appendChild(row);
                     });
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+        </script>
+        -->
+        
+        <script>
+            // JSONファイルのパス
+            fetch('https://mimneko.github.io/kanji-tree/kanji-list.json')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector('#kanjiTable tbody');
+                    let kanjiCount = 0;
+                    let partsCount = 0;
+                    let uniqueKanjiCount = 0;
+
+                    data.forEach(kanji => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${kanji.label}</td>
+                            <td>${kanji.type}</td>
+                        `;
+                        tableBody.appendChild(row);
+
+                        // 統計情報の計算
+                        if (kanji.type !== 'パーツ') {
+                            kanjiCount++;
+                            if (!kanji.alternative) {
+                                uniqueKanjiCount++;
+                            }
+                        } else {
+                            partsCount++;
+                        }
+                    });
+
+                    // 統計情報の表示
+                    const statisticsDiv = document.getElementById('statistics');
+                    statisticsDiv.innerHTML = `
+                        <li>字種数: ${uniqueKanjiCount}</li>
+                        <li>字体数: ${kanjiCount}</li>
+                        <li>パーツ数: ${partsCount}</li>
+                    `;
                 })
                 .catch(error => console.error('Error loading JSON:', error));
         </script>
