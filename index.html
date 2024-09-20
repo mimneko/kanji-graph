@@ -70,7 +70,8 @@
                 <button id="IdSearchButton">検索</button>
             </div>
         </div>
-        
+
+        <!--
         <table border="1">
             <thead>
                 <tr>
@@ -89,6 +90,38 @@
                 {% endfor %}
             </tbody>
         </table>
+        -->
+        <table border="1" id="kanjiTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>漢字</th>
+                    <th>タイプ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- データがここに挿入されます -->
+            </tbody>
+        </table>
+        
+        <script>
+            // JSONファイルのパス
+            fetch('/kanji-list.json')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector('#kanjiTable tbody');
+                    data.forEach(kanji => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${kanji.id}</td>
+                            <td>${kanji.label}</td>
+                            <td>${kanji.type}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+        </script>
 
     </div>
 </body>
