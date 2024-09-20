@@ -77,7 +77,7 @@
                 <tr>
                     <th>ID</th>
                     <th>漢字</th>
-                    <th>タイプ</th>
+                    <th>成り立ち</th>
                 </tr>
             </thead>
             <tbody>
@@ -113,7 +113,6 @@
                     data.forEach(kanji => {
                         const row = document.createElement('tr');
                         row.innerHTML = `
-                            <td>${kanji.id}</td>
                             <td>${kanji.label}</td>
                             <td>${kanji.type}</td>
                         `;
