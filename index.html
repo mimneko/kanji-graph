@@ -70,6 +70,26 @@
                 <button id="IdSearchButton">検索</button>
             </div>
         </div>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>漢字</th>
+                    <th>タイプ</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for kanji in site.data.kanji-list %}
+                <tr>
+                    <td>{{ kanji.id }}</td>
+                    <td>{{ kanji.label }}</td>
+                    <td>{{ kanji.type }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
     </div>
 </body>
 </html>
