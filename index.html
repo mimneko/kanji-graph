@@ -106,7 +106,7 @@
         
         <script>
             // JSONファイルのパス
-            fetch('/kanji-list.json')
+            fetch('https://mimneko.github.io/kanji-tree/kanji-list.json')
                 .then(response => response.json())
                 .then(data => {
                     const tableBody = document.querySelector('#kanjiTable tbody');
