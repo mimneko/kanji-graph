@@ -129,7 +129,7 @@ input[type="text"] {
 /* アコーディオンメニュー */
 details {
     background-color: #fff;
-    margin-bottom: 10px;
+    margin: 30px 0;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
@@ -162,7 +162,7 @@ details[open] summary::after {
     transition: all 0.3s ease-in-out;
 }
 details[open] .accordion-content {
-    max-height: 1000px; /* 適当な大きな値 */
+    max-height: none;
     padding: 1em 2em;
 }
 #kanji-grid {
