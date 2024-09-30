@@ -177,6 +177,10 @@ details[open] .accordion-content {
     text-align: center;
     transition: all 0.3s ease;
 }
+.alternative {
+    background-color: #f2f2f2;
+}
+
 .kanji-item:hover {
     background-color: #f0f0f0;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -194,4 +198,23 @@ details[open] .accordion-content {
 .origin {
     font-size: 0.9em;
     color: #7f8c8d;
+}
+/* Kanji type color styles */
+.shokei {
+    color: #3498db; /* 象形：青 */
+}
+.shiji {
+    color: #e74c3c; /* 指事：赤 */
+}
+.kaii {
+    color: #2ecc71; /* 会意：緑 */
+}
+.keisei {
+    color: #f39c12; /* 形声：オレンジ */
+}
+.kaiikeisei {
+    color: #9b59b6; /* 会意形声：紫 */
+}
+.parts {
+    color: #000000; /* パーツ：黒 */
 }

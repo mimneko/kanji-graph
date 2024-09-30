@@ -195,10 +195,40 @@
                         const kanjiItem = document.createElement('div');
                         kanjiItem.classList.add('kanji-item');
 
+                        // kanji.alternativeが存在する場合、alternativeクラスを追加
+                        if (kanji.alternative) {
+                            kanjiItem.classList.add('alternative');
+                        }
+
+                        // kanji.typeに基づいてクラスを決定
+                        let typeClass;
+                        switch (kanji.type) {
+                            case '象形':
+                                typeClass = 'shokei';
+                                break;
+                            case '指事':
+                                typeClass = 'shiji';
+                                break;
+                            case '会意':
+                                typeClass = 'kaii';
+                                break;
+                            case '形声':
+                                typeClass = 'keisei';
+                                break;
+                            case '会意形声':
+                                typeClass = 'kaiikeisei';
+                                break;
+                            case 'パーツ':
+                                typeClass = 'parts';
+                                break;
+                            default:
+                                typeClass = '';
+                        }
+
                         kanjiItem.innerHTML = `
                             <div class="id-number">${kanji.id}</div>
                             <div class="kanji">${kanji.label}</div>
-                            <div class="origin">${kanji.type}</div>
+                            <div class="origin ${typeClass}">${kanji.type}</div>
                         `;
 
                         fragment.appendChild(kanjiItem);
