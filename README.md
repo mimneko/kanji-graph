@@ -1,4 +1,4 @@
-# kanji-tree
+# kanji-graph
 漢字の成り立ちをグラフにまとめたもの
 
 ## 調査方法
