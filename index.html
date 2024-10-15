@@ -70,23 +70,6 @@
                 <button id="IdSearchButton">検索</button>
             </div>
         </div>
-
-        <!--
-        <details>
-            <summary>対応字体リスト(リスト)</summary>
-            <ul id="statistics"></ul>
-            <table id="kanjiTable">
-                <thead>
-                    <tr>
-                        <th>漢字</th>
-                        <th>成り立ち</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </details>
-        -->
         
         <details open>
             <summary>対応字体リスト</summary>
@@ -96,62 +79,6 @@
                 </div>
             </div>
         </details>
-
-        <!--
-        <script>
-            // JSONファイルのパス
-            fetch('https://mimneko.github.io/kanji-graph/kanji-list.json')
-                .then(response => response.json())
-                .then(data => {
-                    const tableBody = document.querySelector('#kanjiTable tbody');
-                    data.forEach(kanji => {
-                        const row = document.createElement('tr');
-                        row.innerHTML = `
-                            <td>${kanji.label}</td>
-                            <td>${kanji.type}</td>
-                        `;
-                        tableBody.appendChild(row);
-                    });
-                })
-                .catch(error => console.error('Error loading JSON:', error));
-        </script>
-        -->
-        
-        <!--
-        <script>
-            // JSONファイルのパス
-            fetch('https://mimneko.github.io/kanji-graph/kanji-list.json')
-                .then(response => response.json())
-                .then(data => {
-                    const grid = document.getElementById('kanji-grid');
-                    
-                    // IDでソート (idの数値部分だけを使ってソート)
-                    const sortedData = data.sort((a, b) => {
-                        // 'k00001'のようなIDから数値部分を抽出して数値として比較
-                        return parseInt(a.id.slice(1)) - parseInt(b.id.slice(1));
-                    });
-
-
-                    data.forEach(kanji => {
-                        // .kanji-item の要素を作成
-                        const kanjiItem = document.createElement('div');
-                        kanjiItem.classList.add('kanji-item');
-        
-                        // .id-number, .kanji, .origin の要素を作成
-                        kanjiItem.innerHTML = `
-                            <div class="id-number">${kanji.id}</div>
-                            <div class="kanji">${kanji.label}</div>
-                            <div class="origin">${kanji.type}</div>
-                        `;
-        
-                        // 作成した kanji-item を #kanji-grid に追加
-                        grid.appendChild(kanjiItem);
-                    });
-                })
-                .catch(error => console.error('Error loading JSON:', error));
-        </script>
-        -->
-
 
         <script>
             // JSONファイルのパス
