@@ -70,6 +70,7 @@
     },
     {
         "id": "k09203",
+        "svg": "unencoded-glyphs/u840c-k.svg",
         "label": "艸の萌",
         "type": "形声",
         "components": [
@@ -297,3 +298,4 @@
         "alternative": "k02523"
     }
 ]
+
