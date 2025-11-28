@@ -277,7 +277,12 @@
             "note": null,
             "components": []
         },
-        "variants": []
+        "variants": [
+            {
+                "id": "k06936",
+                "category": "旧字"
+            }
+        ]
     },
     {
         "id": "k06936",
@@ -290,12 +295,7 @@
                 "k13434"
             ]
         },
-        "variants": [
-            {
-                "id": "k06935",
-                "category": null
-            }
-        ]
+        "variants": []
     },
     {
         "id": "k00648",
@@ -528,4 +528,5 @@
             }
         ]
     }
+
 ]
