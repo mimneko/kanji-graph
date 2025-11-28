@@ -1,0 +1,531 @@
+[
+    {
+        "id": "k00001",
+        "label": "一",
+        "formation": {
+            "type": "指事",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k00045",
+        "label": "丫",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k06864",
+        "label": "皿",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k10084",
+        "label": "血",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k04099",
+        "label": "日",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k04319",
+        "label": "月",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k01127",
+        "label": "口",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k13125",
+        "label": "鳥",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k08780",
+        "label": "艸",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": [
+            {
+                "id": "b00002",
+                "category": null
+            }
+        ]
+    },
+    {
+        "id": "b00002",
+        "label": "艹",
+        "formation": {
+            "type": "パーツ",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k06893",
+        "label": "盟",
+        "formation": {
+            "type": "会意形声",
+            "note": null,
+            "components": [
+                "k04133",
+                "k10084"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k04133",
+        "label": "明",
+        "formation": {
+            "type": "会意",
+            "note": null,
+            "components": [
+                "k04099",
+                "k04319"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k09203",
+        "svg": "unencoded-glyphs/u840c-k.svg",
+        "label": "艸の萌",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k08780",
+                "k04133"
+            ]
+        },
+        "variants": [
+            {
+                "id": "k09204",
+                "category": null
+            }
+        ]
+    },
+    {
+        "id": "k09204",
+        "label": "萌",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k09457",
+        "label": "蔦",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k08780",
+                "k13125"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k13134",
+        "label": "鳴",
+        "formation": {
+            "type": "会意",
+            "note": null,
+            "components": [
+                "k01127",
+                "k13125"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k12508",
+        "label": "顚",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k06936",
+                "k12438"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k12509",
+        "label": "顛",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": []
+        },
+        "variants": [
+            {
+                "id": "k12508",
+                "category": null
+            }
+        ]
+    },
+    {
+        "id": "k02637",
+        "label": "巓",
+        "formation": {
+            "type": "会意形声",
+            "note": null,
+            "components": [
+                "k12508",
+                "k02455"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k06808",
+        "label": "癲",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k12508",
+                "b00003"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "b00003",
+        "label": "疒",
+        "formation": {
+            "type": "パーツ",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k02455",
+        "label": "山",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k12438",
+        "label": "頁",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k06935",
+        "label": "真",
+        "formation": {
+            "type": "会意",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k06936",
+        "label": "眞",
+        "formation": {
+            "type": "会意",
+            "note": null,
+            "components": [
+                "k00648",
+                "k13434"
+            ]
+        },
+        "variants": [
+            {
+                "id": "k06935",
+                "category": null
+            }
+        ]
+    },
+    {
+        "id": "k00648",
+        "label": "匕",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k13434",
+        "label": "鼎",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k03049",
+        "label": "心",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k00102",
+        "label": "二",
+        "formation": {
+            "type": "指事",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k00114",
+        "label": "亜",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k00115",
+        "label": "亞",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": [
+            {
+                "id": "k00114",
+                "category": null
+            }
+        ]
+    },
+    {
+        "id": "k03181",
+        "label": "悪",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k03182",
+        "label": "惡",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k03049",
+                "k00115"
+            ]
+        },
+        "variants": [
+            {
+                "id": "k03181",
+                "category": null
+            }
+        ]
+    },
+    {
+        "id": "k11791",
+        "label": "錏",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k11629",
+                "k00115"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k11915",
+        "label": "鐚",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k11629",
+                "k03182"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k11629",
+        "label": "金",
+        "memo": "構成要素のうち、「八」は数字の「八」と同じと言えるか怪しいので追加調査が必要",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k01636",
+                "k00599",
+                "k00147"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k01636",
+        "label": "土",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k00599",
+        "label": "八",
+        "formation": {
+            "type": "指事",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k00147",
+        "label": "今",
+        "formation": {
+            "type": "象形",
+            "note": null,
+            "components": []
+        },
+        "variants": []
+    },
+    {
+        "id": "k01180",
+        "label": "含",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k01127",
+                "k00147"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k01182",
+        "label": "吟",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k01127",
+                "k00147"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k12469",
+        "label": "頷",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k01180",
+                "k12438"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k02523",
+        "label": "島",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": [
+                "k02455",
+                "k13125"
+            ]
+        },
+        "variants": []
+    },
+    {
+        "id": "k02524",
+        "label": "嶋",
+        "formation": {
+            "type": "形声",
+            "note": null,
+            "components": []
+        },
+        "variants": [
+            {
+                "id": "k02523",
+                "category": null
+            }
+        ]
+    }
+]
